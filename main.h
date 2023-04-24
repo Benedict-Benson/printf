@@ -30,6 +30,13 @@ struct fmt
 	int (*fn)(va_list, char[], int, int, int, int);
 };
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> cdcf0a7c87763f339aa134ef90ba1c6554c2a3b7
+>>>>>>> main
 /**
  * typedef struct fmt fmt_t - Struct op
  *
@@ -42,6 +49,15 @@ int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i,
 va_list list, char buffer[], int flags, int width, int precision, int size);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/****************** FUNCTIONS ******************/
+=======
+/*** FUNCTIONS ***/
+>>>>>>> cdcf0a7c87763f339aa134ef90ba1c6554c2a3b7
+
+>>>>>>> main
 /* Funtions to print chars and strings */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
@@ -103,6 +119,14 @@ int write_unsgnd(int is_negative, int ind,
 char buffer[],
 	int flags, int width, int precision, int size);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/****************** UTILS ******************/
+=======
+/*** UTILS ***/
+>>>>>>> cdcf0a7c87763f339aa134ef90ba1c6554c2a3b7
+>>>>>>> main
 int is_printable(char);
 int append_hexa_code(char, char[], int);
 int is_digit(char);
