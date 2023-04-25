@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * printf_hex - prints an hexdecimal number

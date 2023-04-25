@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * printf_sng - print a string
